@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Games
 Source0:	http://dl.sourceforge.net/geekcode/%{name}-%{version}.tar.gz
+# Source0-md5:	e685540e937daa920e3cbac5ddb9817b
 URL:		http://geekcode.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
