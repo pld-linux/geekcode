@@ -1,12 +1,12 @@
 Summary:	Generates your geek code
 Summary(pl):	Program generuj±cy geek code
 Name:		geekcode
-Version:	1.7
+Version:	1.7.2
 Release:	1
 License:	GPL
 Group:		Applications/Games
 Source0:	http://dl.sourceforge.net/geekcode/%{name}-%{version}.tar.gz
-# Source0-md5:	e685540e937daa920e3cbac5ddb9817b
+# Source0-md5:	c0ed9ea1f189c7ef184ae285f5df9bcd
 URL:		http://geekcode.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
