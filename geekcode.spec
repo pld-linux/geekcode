@@ -1,5 +1,5 @@
-Summary:	Generates your geek code.
-Summary(pl):	Generuje Twój geek code.
+Summary:	Generates your geek code
+Summary(pl):	Generuje Twój geek code
 Name:		geekcode
 Version:	1.7
 Release:	1
@@ -21,10 +21,13 @@ kodów z ekranu.
 %setup -q
 
 %build
-%{__make} CFLAGS="%{rpmcflags}"
+%{__make} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 install -D geekcode $RPM_BUILD_ROOT/%{_bindir}/geekcode
 
 %clean
