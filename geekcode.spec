@@ -1,12 +1,12 @@
 Summary:	Generates your geek code
-Summary(pl):	Generuje Twój geek code
+Summary(pl):	Program generuj±cy geek code
 Name:		geekcode
 Version:	1.7
 Release:	1
 License:	GPL
 Group:		Applications/Games
-URL:		http://geekcode.sourceforge.net
-Source0:	http://download.sourceforge.net/geekcode/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/geekcode/%{name}-%{version}.tar.gz
+URL:		http://geekcode.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -14,8 +14,8 @@ This program will generate a geek code block for you by simply
 choosing which codes suit you from the screen.
 
 %description -l pl
-Program generuje blok geek code dla Ciebie przez proste wybieranie zestawu
-kodów z ekranu.
+Program generuje blok geek code dla u¿ytkownika poprzez proste
+wybieranie pasuj±cych kodów z ekranu.
 
 %prep
 %setup -q
@@ -28,7 +28,7 @@ kodów z ekranu.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-install -D geekcode $RPM_BUILD_ROOT/%{_bindir}/geekcode
+install -D geekcode $RPM_BUILD_ROOT%{_bindir}/geekcode
 
 %clean
 rm -rf $RPM_BUILD_ROOT
