@@ -1,5 +1,5 @@
 Summary:	Generates your geek code
-Summary(pl):	Program generuj±cy geek code
+Summary(pl.UTF-8):   Program generujÄ…cy geek code
 Name:		geekcode
 Version:	1.7.3
 Release:	2
@@ -14,9 +14,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This program will generate a geek code block for you by simply
 choosing which codes suit you from the screen.
 
-%description -l pl
-Program generuje blok geek code dla u¿ytkownika poprzez proste
-wybieranie pasuj±cych kodów z ekranu.
+%description -l pl.UTF-8
+Program generuje blok geek code dla uÅ¼ytkownika poprzez proste
+wybieranie pasujÄ…cych kodÃ³w z ekranu.
 
 %prep
 %setup -q
