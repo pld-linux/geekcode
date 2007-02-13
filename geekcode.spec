@@ -1,5 +1,5 @@
 Summary:	Generates your geek code
-Summary(pl.UTF-8):   Program generujący geek code
+Summary(pl.UTF-8):	Program generujący geek code
 Name:		geekcode
 Version:	1.7.3
 Release:	2
